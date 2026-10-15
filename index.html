@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kestrel Freightworks — air, sea and road freight across APAC, run by one accountable team. Concept site." />
+    <title>Kestrel Freightworks | One team, every mile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="loader" aria-hidden="true">
+      <span class="loader__word" data-scramble>KESTREL</span>
+      <span class="loader__bar"><i></i></span>
+    </div>
+
+    <header class="nav">
+      <a class="nav__logo" href="#top" aria-label="Kestrel Freightworks home">KESTREL<span>FREIGHTWORKS</span></a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about" data-scramble>About</a>
+        <a href="#services" data-scramble>Services</a>
+        <a href="#network" data-scramble>Network</a>
+        <a href="#clients" data-scramble>Clients</a>
+        <a href="#contact" data-scramble>Contact</a>
+      </nav>
+      <a class="btn btn--light nav__cta" href="#contact">Get a quote</a>
+    </header>
+
+    <main id="top">
+      <!-- 1. HERO / GLOBE -->
+      <section class="hero" aria-label="Introduction">
+        <div class="hero__sticky">
+          <canvas class="globe" aria-hidden="true"></canvas>
+          <div class="hero__glow" aria-hidden="true"></div>
+          <div class="hero__dive" aria-hidden="true"></div>
+          <div class="hero__ticker mono" aria-hidden="true">
+            <span>LIVE</span><span data-ticker>MNL → SYD · 2,184 shipments in transit</span>
+          </div>
+          <div class="hero__content">
+            <p class="eyebrow mono" data-scramble>One operator</p>
+            <h1 class="hero__title">
+              <span class="line" data-scramble>Every mile</span>
+              <span class="line" data-scramble>of the route,</span>
+              <span class="line" data-scramble>one team.</span>
+            </h1>
+            <p class="hero__lede">Air freight, ocean freight, road haulage and customs brokerage across APAC, managed end to end by people who answer the phone.</p>
+            <div class="hero__actions">
+              <a class="btn btn--light" href="#contact">Book a call</a>
+              <a class="btn btn--ghost" href="#services">Our services</a>
+            </div>
+          </div>
+          <div class="hero__scroll mono" aria-hidden="true"><i></i>Scroll</div>
+        </div>
+      </section>
+
+      <!-- 2. SKY → INTRO -->
+      <div class="sky" id="about" aria-hidden="true"></div>
+
+      <!-- 3. PORT: intro → stacker → truck → top-down -->
+      <section class="port" id="services" aria-label="About us">
+        <div class="port__sticky">
+          <div class="intro">
+            <figure class="intro__thumb"><img src="/img/highway.jpg" alt="Aerial view of a winding highway interchange" /></figure>
+            <div class="intro__copy">
+              <p>Booking, pickup, linehaul, customs and final delivery sit with one team. You get one contact, one invoice and one set of tracking data, whatever the cargo is carried on.</p>
+              <p>Nobody passes blame between vendors. Nothing waits in a handoff queue. The same team stays responsible from the origin dock to the receiving dock.</p>
+              <a class="btn btn--outline" href="#network">How we work</a>
+            </div>
+          </div>
+          <div class="port__head">
+            <h2 class="display port__title" data-fill><span>We move</span><span>cargo.</span><span class="dark">We own</span><span class="dark">the result.</span></h2>
+            <div class="stat">
+              <span class="stat__num"><b data-count="12">0</b>+</span>
+              <span class="stat__label mono">Years moving freight</span>
+            </div>
+            <div class="stat stat--b">
+              <span class="stat__num"><b data-count="40">0</b>k</span>
+              <span class="stat__label mono">TEU handled each year</span>
+            </div>
+          </div>
+
+          <div class="side" aria-hidden="true">
+            <div class="side__world">
+              <div class="side__ground"></div>
+              <div class="stack">
+                <img class="stack__box stack__box--blue" src="/img/container.png" alt="" />
+                <img class="stack__box stack__box--red" src="/img/container.png" alt="" />
+              </div>
+              <img class="stacker" src="/img/stacker.png" alt="" />
+              <img class="truck-side" src="/img/truck-side.png" alt="" />
+              <img class="box" src="/img/container.png" alt="" />
+            </div>
+          </div>
+
+          <div class="top" aria-hidden="true">
+            <svg class="road" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+              <path class="road__path" d="M-200 260 L560 260 C760 260 820 450 1000 450 L1900 450" />
+              <path class="road__branch" d="M820 330 C820 520 700 560 700 1100" />
+              <path class="road__motion" d="M-200 260 L560 260 C760 260 820 450 1000 450 L1900 450" />
+            </svg>
+            <img class="truck-top" src="/img/truck-top.png" alt="" />
+          </div>
+
+          <p class="port__caption mono" aria-hidden="true"><span data-phase>01 — Container pickup</span></p>
+        </div>
+      </section>
+
+      <!-- 4. MILESTONE PANELS -->
+      <section class="milestone" aria-label="Reliability">
+        <div class="milestone__sticky">
+          <div class="ocean-peek" aria-hidden="true"></div>
+          <div class="panel panel--l">
+            <p class="mono small">02 — On the road</p>
+            <h2 class="display">Reliable<br /><span class="dark">at every<br />checkpoint</span></h2>
+          </div>
+          <div class="lane" aria-hidden="true"><img class="truck-lane" src="/img/truck-top.png" alt="" /></div>
+          <div class="panel panel--r">
+            <ul class="features">
+              <li><span class="ico" aria-hidden="true">◎</span><h3>Live freight tracking</h3><p>See every consignment on one map, from pickup to proof of delivery.</p></li>
+              <li><span class="ico" aria-hidden="true">◇</span><h3>Exceptions flagged early</h3><p>Delays reach you before the cargo misses its slot, with a fix already planned.</p></li>
+              <li><span class="ico" aria-hidden="true">▢</span><h3>Paperwork handled</h3><p>Our licensed brokers prepare and lodge customs entries in house.</p></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. OCEAN / SHIP -->
+      <section class="ocean" id="network" aria-label="Ocean freight">
+        <div class="ocean__sticky">
+          <div class="ocean__water" aria-hidden="true"></div>
+          <img class="ship" src="/img/ship.jpg" alt="" aria-hidden="true" />
+          <h2 class="ocean__title display" data-scramble-scroll>
+            <span>Logistics</span><span>that works</span><span>as hard as</span><span>you do.</span>
+          </h2>
+          <ul class="orbit">
+            <li class="orbit__item" style="--x:-1;--y:-1"><span class="ico">◎</span><h3>One point of contact</h3><p>A named account manager who knows your lanes and your cargo.</p></li>
+            <li class="orbit__item" style="--x:1;--y:-1"><span class="ico">◇</span><h3>Full chain visibility</h3><p>Milestones, documents and ETAs in one live dashboard.</p></li>
+            <li class="orbit__item" style="--x:-1;--y:0"><span class="ico">▢</span><h3>Compliance you can trust</h3><p>Licensed customs brokers on staff in every port we serve.</p></li>
+            <li class="orbit__item" style="--x:1;--y:0"><span class="ico">△</span><h3>Clear, fixed pricing</h3><p>The rate we quote is the rate on the invoice, with no hidden surcharges.</p></li>
+            <li class="orbit__item" style="--x:0;--y:1"><span class="ico">○</span><h3>Fast issue resolution</h3><p>When something goes wrong, we call you first and come with a plan.</p></li>
+          </ul>
+          <div class="clouds" aria-hidden="true">
+            <img src="/img/clouds.png" alt="" class="cloud c1" />
+            <img src="/img/clouds.png" alt="" class="cloud c2" />
+            <img src="/img/clouds.png" alt="" class="cloud c3" />
+            <img src="/img/clouds.png" alt="" class="cloud c4" />
+          </div>
+          <div class="whiteout" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <!-- 6. CLIENTS / JET -->
+      <section class="clients" id="clients">
+        <img class="jet" src="/img/jet.png" alt="" aria-hidden="true" />
+        <div class="clients__head">
+          <h2 class="display" data-fill><span>Trusted by</span><span>businesses</span><span class="dark">across APAC</span></h2>
+        </div>
+        <div class="quotes">
+          <figure class="quote">
+            <img src="/img/person1.jpg" alt="Portrait of Daniel Reyes" />
+            <figcaption><b>Daniel Reyes</b><span>Operations Director, Lumen Retail Group</span></figcaption>
+            <blockquote>We moved forty containers of store fit-out across three countries in six weeks. Kestrel ran it as a single project. I always had one person to call, and that person always had the answer.</blockquote>
+          </figure>
+          <figure class="quote">
+            <img src="/img/person2.jpg" alt="Portrait of Mei Tanaka" />
+            <figcaption><b>Mei Tanaka</b><span>Supply Chain Lead, Hoshi Components</span></figcaption>
+            <blockquote>Our previous forwarder sent us updates. Kestrel sends us decisions. When a typhoon closed the port, our cargo had already been rebooked by the time we heard about it.</blockquote>
+          </figure>
+          <figure class="quote">
+            <img src="/img/person3.jpg" alt="Portrait of Liam O'Connell" />
+            <figcaption><b>Liam O'Connell</b><span>Founder, Outback Coffee Roasters</span></figcaption>
+            <blockquote>We're a small importer and still get treated like a key account. Our green beans clear customs faster now than they did when we used a forwarder four times the size.</blockquote>
+          </figure>
+        </div>
+      </section>
+
+      <!-- 7. CTA / FOOTER -->
+      <footer class="footer" id="contact">
+        <p class="eyebrow mono" data-scramble>Next shipment</p>
+        <h2 class="display footer__title">Ready when<br />your cargo is.</h2>
+        <a class="btn btn--light" href="mailto:hello@example.com">Start a quote</a>
+        <div class="footer__mark" aria-hidden="true">KESTREL</div>
+        <div class="footer__row mono">
+          <span>© 2026 Kestrel Freightworks</span>
+          <span>Concept site · fictional brand · portfolio piece</span>
+        </div>
+      </footer>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
